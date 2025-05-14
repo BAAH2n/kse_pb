@@ -1,0 +1,5 @@
+area_30 = 3.14 * (0.3**2)
+area_36 = 3.14 * (0.363**2)
+diff = (area_36-area_30)/(area_30/100)
+print (area_30, area_36, diff)
+print (f"Друга піца на {format(diff, '.2f')}% більше за першу")
